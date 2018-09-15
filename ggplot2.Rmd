@@ -8,3 +8,8 @@ output: html_document
 # Learning ggplot2
 
 Learn.
+
+```{r}
+car_plot <- ggplot(data = mpg, aes(x = displ, y = hwy))
+car_plot + geom_point()
+```
